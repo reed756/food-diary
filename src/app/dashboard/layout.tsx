@@ -6,11 +6,9 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
-        <Sidenav />
-        <main className="ml-50 p-16 h-dvh max-md:ml-0">{children}</main>
-      </body>
-    </html>
+    <div>
+      <Sidenav />
+      <section className="ml-50 p-16 h-dvh max-md:ml-0">{children}</section>
+    </div>
   );
 }
