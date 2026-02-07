@@ -1,10 +1,9 @@
-import Link from 'next/link';
+import LoginForm from '../ui/login-form';
 
 export default function Page() {
   return (
-    <>
-      <Link href={'/dashboard'}>Log me in</Link>
-      <Link href={'/'}>Go back</Link>
-    </>
+    <section className="bg-gray-100 min-h-screen flex items-center justify-center flex-col gap-3">
+      <LoginForm />
+    </section>
   );
 }
