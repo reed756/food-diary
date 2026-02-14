@@ -24,4 +24,6 @@ export type TodaysMeals = {
   day_id: number;
   date: Date;
   meals: Meal[];
+  discomfort_notes: string;
+  discomfort_level: number;
 }
