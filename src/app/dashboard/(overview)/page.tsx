@@ -59,10 +59,10 @@ export default function Page() {
   };
 
   return (
-    <div className="border-black border p-4 rounded-lg bg-grey-100">
+    <div className="border-black border p-8 rounded-lg bg-grey-100 w-150 h-fit">
       <h1 className="text-2xl font-bold">Today&apos;s Meals</h1>
       <h2 className="font-medium">{todaysMeals.date.toDateString()}</h2>
-      <div className="mt-8 flex flex-col gap-4">
+      <div className="mt-8 flex flex-col gap-8">
         {todaysMeals.meals.map((meal) => {
           return (
             <div

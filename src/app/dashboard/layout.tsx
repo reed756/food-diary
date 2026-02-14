@@ -8,7 +8,9 @@ export default function DashboardLayout({
   return (
     <div>
       <Sidenav />
-      <section className="ml-50 p-16 h-dvh max-md:ml-0">{children}</section>
+      <section className="flex justify-center ml-50 p-16 h-dvh max-md:ml-0">
+        {children}
+      </section>
     </div>
   );
 }
